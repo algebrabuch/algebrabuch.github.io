@@ -1,81 +1,67 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Algebra
+description: Eine grundlagenorientierte Einführungsvorlesung
+img: assets/img/algebra1_covergraph.png
 importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+category: algebra
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Dieser Text dient als Einführung in das Gebiet der Algebra. Klassischerweise geht
+es dabei um Mengen, die "Rechenoperationen" tragen, sodass gewisse
+"Rechenregeln" erfüllt sind, beispielsweise Gruppen oder auch
+Körper. Oft handelt es sich um Abstraktionen von "konkreten"
+Objekten mit dem Ziel, den wesentlichen strukturellen Kern von
+Eigenschaften, die diese Objekte haben, freizulegen. Als Beispiel
+können hier die ganzen Zahlen dienen, die man als Gruppe oder auch als
+Ring auffassen kann. Die interessanten Fragen kreisen somit zumeist
+darum, die Struktur dieser Objekte zu verstehen. Eine Möglichkeit dazu
+sind Klassifikationen. Das bedeutet, dass man zu einer (beispielsweise
+durch das Erfülltsein bestimmer Rechenregeln gegebenen) Klasse von
+Strukturen eine Liste "konkreter" Objekte derart findet, dass man zu
+jeder Struktur aus der Klasse auf möglichst kanonische Weise einen
+eindeutigen Vertreter auf der Liste findet, der dazu strukturgleich
+("isomorph") ist. Ein anderer wichtiger Typus von Einsichten
+beschäftigt sich mit Verbindungen zwischen Strukturen aus
+verschiedenen Klassen, beispielsweise Körpern und (Mengen von)
+Polynomen, insbesondere deren Nullstellen.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Im letzten Jahrhundert entstand noch ein weiteres Feld innerhalb der
+Mathematik, nämlich die sogenannte allgemeine oder
+universelle Algebra. In einem zusätzlichen Abstraktionsschritt
+treten hier die konkreten, in der klassischen Algebra
+studierten Klassen wie Gruppen in den Hintergrund. Stattdessen rücken
+die Rechenoperationen und Rechengesetze an sich in den Fokus, mit dem
+Ziel, das Wechselspiel zwischen Strukturen und allen auf ihnen
+geltenden Gesetze zu verstehen.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Mathematik lebt zu einem guten Teil von ihren reichhaltigen inneren
+Querverbindungen. Für die Algebra als stark strukturtheoretisch
+geprägter Disziplin gilt das ganz besonders. Aus diesem Grund hängt
+die Qualität eines Buchs über dieses Thema nicht zuletzt von einem
+ökonomischen Aufbau ab, in dem gleichzeitig die keineswegs nur linear
+verlaufenden Verbindungen sichtbar werden. In der Algebra noch mehr
+als in manch anderen Teilgebieten der Mathematik spielt dabei ein
+sorgfältiger begrifflicher Aufbau eine wesentliche Rolle. Ein
+profundes Verständnis für diesen Aufbau ist daher ein wichtiger
+Schlüssel zur Bewältigung des Großteils des Stoffes. In vielen Fällen
+ist es dabei möglich, ausufernde technische Komplikationen zu
+vermeiden, die stets die Gefahr bergen, dass Details den Blick auf die
+wesentlichen Ideen verdecken. Die Grobstruktur ist vorwiegend diesem
+Anliegen geschuldet, insbesondere stecken wir uns zu Beginn einen
+begrifflichen Rahmen, der nicht nur die klassische sondern auch
+die allgemeine Algebra aufnimmt. Dies bietet zwei Vorteile: einerseits
+den offensichtlichen, dass wir Inhalte aus der allgemeinen Algebra
+besprechen können; andererseits den etwas versteckteren, dass wir
+beispielsweise die grundlegenden algebraischen Begriffsbildungen wie
+Unteralgebra oder Homomorphismus in allgemeiner Terminologie einführen
+können und erst später auf klassische Algebren wie Gruppen oder Ringe
+spezialisieren. Auf diese Weise wird sichtbar, welche Eigenschaften
+aus allgemeinen Prinzipien folgen (und sich dort oftmals mit weniger
+technischen Details darstellen lassen) und welche von spezielleren
+Situationen abhängig sind. Viele einführende Bücher über Algebra
+befassen sich ausschließlich mit klassischer Algebra; wir hingegen
+sind überzeugt, dass die allgemeinere Sichtweise ein klareres Bild
+ergeben kann, auch wenn man nur an klassischer Algebra interessiert
+sein sollte.

@@ -2,10 +2,10 @@
 layout: page
 title: Bücher
 permalink: /buecher/
-description: Die Bücher.
+description: TODO bessere Bilder
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [algebra]
 horizontal: false
 ---
 
