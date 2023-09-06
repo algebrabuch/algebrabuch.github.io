@@ -2,7 +2,7 @@
 layout: page
 title: Bücher
 permalink: /buecher/
-description: TODO bessere Bilder
+description: 
 nav: true
 nav_order: 2
 display_categories: [algebra]
