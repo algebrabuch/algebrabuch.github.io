@@ -17,7 +17,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 Herzlich willkommen auf der Website zu den e-books
-* __Algebra -- eine grundlagenorientierte Einführungsvorlesung__ <br>von _Martin&nbsp;Goldstern_, _Clemens&nbsp;Schindler_ und _Reinhard&nbsp;Winkler_
-* __Algebra II -- eine vertiefende Vorlesung__ <br>von _Clemens&nbsp;Schindler_ und _Reinhard&nbsp;Winkler_
+* __Algebra -- eine grundlagenorientierte Einführungsvorlesung__ <br>von _Martin&nbsp;Goldstern_, _Clemens&nbsp;Schindler_ und _Reinhard&nbsp;Winkler_ †
+* __Algebra II -- eine vertiefende Vorlesung__ <br>von _Clemens&nbsp;Schindler_ und _Reinhard&nbsp;Winkler_ †
 
 Wir hoffen, dass Ihnen die Bücher gefallen und dass Sie sie interessant und nützlich finden! Wenn Sie Anregungen haben oder Fehler gefunden haben, würden wir uns über eine Nachricht an `algebrabuch[at]gmail[dot]com` freuen -- vielen Dank!
